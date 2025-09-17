@@ -15,9 +15,6 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// Stripe setup
-const Stripe = require('stripe');
-const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 
 
 // MongoDB connection
@@ -48,7 +45,6 @@ const paymentsRoutes = require('./routes/payments');
 const razorpayRoutes = require('./routes/razorpay');
 const historyRoutes = require('./routes/history');
 const ratingsRoutes = require('./routes/ratings');
-app.set('stripe', stripe);
 app.use('/api/users', userRoutes);
 app.use('/api/rides', rideRoutes);
 app.use('/api/driver', driverRoutes);
