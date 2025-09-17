@@ -1,0 +1,31 @@
+{
+  "name": "uber-clone-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.0.0",
+    "@react-google-maps/api": "^2.19.0",
+    "@stripe/stripe-js": "^2.0.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "autoprefixer": "^10.0.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.544.0",
+    "next": "^14.0.0",
+    "postcss": "^8.0.0",
+    "razorpay": "^2.9.6",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.20",
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.12",
+    "typescript": "5.9.2"
+  }
+}
