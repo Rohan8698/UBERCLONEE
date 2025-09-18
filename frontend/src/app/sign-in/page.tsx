@@ -28,13 +28,6 @@ export default function SignInPage() {
               footerActionText: 'text-cyan-400',
             }
           }}
-          localization={{
-            signIn: {
-              start: {
-                title: 'Sign in to Ryde',
-              },
-            },
-          }}
         />
       </div>
       {/* Neon accent ring */}
