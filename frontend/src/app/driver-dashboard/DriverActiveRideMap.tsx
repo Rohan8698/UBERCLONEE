@@ -21,7 +21,6 @@ export default function DriverActiveRideMap({ pickup, dropoff }: { pickup: strin
         dropoff={dropoff}
         setDropoff={() => {}}
         onRoute={() => {}}
-        readOnly={true}
       />
     </div>
   );
