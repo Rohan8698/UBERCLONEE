@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-const defaultCenter = [28.6139, 77.2090]; // New Delhi
+const defaultCenter: [number, number] = [28.6139, 77.2090]; // New Delhi
 
 export default function LeafletGraphHopperAutocomplete({
   pickup,
